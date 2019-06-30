@@ -12,5 +12,8 @@ Controlador.prototype = {
 
   borrarPregunta: function(id){
     this.modelo.borrarPreguntasDeArray(id)
+  },
+  borrarTodo: function(){
+    this.modelo.borrarTodasLasPreguntas()
   }
 };

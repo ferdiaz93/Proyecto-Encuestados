@@ -85,6 +85,11 @@ VistaAdministrador.prototype = {
     
     })
 
+    $('#borrarTodo').click(function(){
+      $('.list-group-item').remove()
+      contexto.controlador.borrarTodo()
+    })
+
     //asociar el resto de los botones a eventos
   },
 
